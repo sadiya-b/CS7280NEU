@@ -1,4 +1,4 @@
-
+# README
 Setup:
 You can open the project on IntelliJ. If encountered with Junit package issue, use junit4 and openjdk16. 
 
@@ -22,11 +22,49 @@ int[] array = new int[]{10,20,30,40,50,60,70,80,90,100};
 1. First test - lookup
 - I’m searching for ‘50’ to see if it accurately searches the value in the btree. 
 2. Second test - Display method + insert:
+output on running the code::
+-------
+|40||-1||-1|
+
+|20||-1||-1|
+|60||80||-1|
+
+|10||-1||-1|
+|30||-1||-1|
+|50||-1||-1|
+|70||-1||-1|
+|90||100||-1|
+---
 - since it’s level order, the first n0ode ‘40’ is the root, 20,60,80 are level 2 and so on. 
+
 3. Third test: test to see if  a duplicate value is entered
 - I used insert method to add ‘50’ in the tree and checked my answer using display, both the trees in second test case and third are identical, which means my code handles duplication. 
 
 
+Overall Output: 
+true
+----tree display---
+|40||-1||-1|
+
+|20||-1||-1|
+|60||80||-1|
+
+|10||-1||-1|
+|30||-1||-1|
+|50||-1||-1|
+|70||-1||-1|
+|90||100||-1|
+-----after adding duplicate value----
+|40||-1||-1|
+
+|20||-1||-1|
+|60||80||-1|
+
+|10||-1||-1|
+|30||-1||-1|
+|50||-1||-1|
+|70||-1||-1|
+|90||100||-1|
 
 References:
 [1] https://classes.engineering.wustl.edu/cse241/handouts/btree.pdf
