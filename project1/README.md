@@ -34,7 +34,7 @@ output on running the code::
 |50||-1||-1|
 |70||-1||-1|
 |90||100||-1|
----
+
 - since it’s level order, the first n0ode ‘40’ is the root, 20,60,80 are level 2 and so on. 
 
 3. Third test: test to see if  a duplicate value is entered
@@ -54,7 +54,9 @@ true
 |50||-1||-1|
 |70||-1||-1|
 |90||100||-1|
+
 -----after adding duplicate value----
+
 |40||-1||-1|
 
 |20||-1||-1|
@@ -65,6 +67,7 @@ true
 |50||-1||-1|
 |70||-1||-1|
 |90||100||-1|
+
 
 References:
 [1] https://classes.engineering.wustl.edu/cse241/handouts/btree.pdf
