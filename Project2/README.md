@@ -10,4 +10,6 @@ README
     2.3 Databse name is 'insurance' and username and password are root.
 
 3. Phase4 contains the link to the video explaining a little bit about my understanding of OrientDB along with the ppt. 
+
+URL - https://northeastern.zoom.us/rec/share/YzdhG8yDOlSzPup1DUjcBO5A4BYNibjYKKqibvgwvvQl6Vdb1rxm0S6zL4CP14M.PUpSaWZLSmmqiJ7G?startTime=1647917961000 (Passcode: KE@1xTKq)
   
